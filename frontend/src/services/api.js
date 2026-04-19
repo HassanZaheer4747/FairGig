@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const AUTH_URL = 'http://localhost:5000';
-const EARNINGS_URL = 'http://localhost:8001';
-const GRIEVANCE_URL = 'http://localhost:5001';
-const ANALYTICS_URL = 'http://localhost:8003';
-const CERTIFICATE_URL = 'http://localhost:8004';
+const AUTH_URL = process.env.REACT_APP_AUTH_API_URL || 'http://localhost:5000';
+const EARNINGS_URL = process.env.REACT_APP_EARNINGS_API_URL || 'http://localhost:8001';
+const GRIEVANCE_URL = process.env.REACT_APP_GRIEVANCE_API_URL || 'http://localhost:5001';
+const ANALYTICS_URL = process.env.REACT_APP_ANALYTICS_API_URL || 'http://localhost:8003';
+const CERTIFICATE_URL = process.env.REACT_APP_CERTIFICATE_API_URL || 'http://localhost:8004';
 
 const createClient = (baseURL) => {
   const client = axios.create({ baseURL });

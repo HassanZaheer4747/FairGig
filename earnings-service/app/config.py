@@ -9,8 +9,10 @@ class Settings(BaseSettings):
     analytics_service_url: str = "http://localhost:8003"
     upload_dir: str = "./uploads"
 
+    # Railway specific internal networking or public URLs
     class Config:
         env_file = ".env"
+        env_prefix = "" # Allow direct env variable names like ANOMALY_SERVICE_URL
 
 @lru_cache()
 def get_settings():
