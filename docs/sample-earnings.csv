@@ -1,0 +1,9 @@
+date,platform,city,gross_amount,deductions,hours_worked,trips_or_orders,notes
+2024-01-15,Uber,Lahore,22000,4400,8,18,Good day
+2024-01-16,Uber,Lahore,18500,3700,7,14,Normal
+2024-01-17,Uber,Lahore,25000,5000,9,22,Surge pricing
+2024-01-18,Uber,Lahore,12000,3600,6,10,High deductions
+2024-01-19,Foodpanda,Karachi,19000,3800,8,20,
+2024-01-20,Foodpanda,Karachi,16000,3200,7,16,Weekend
+2024-01-21,Fiverr,Islamabad,35000,3500,10,,Project completed
+2024-01-22,Fiverr,Islamabad,28000,2800,8,,Revision work

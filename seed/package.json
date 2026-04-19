@@ -1,0 +1,12 @@
+{
+  "name": "fairgig-seed",
+  "version": "1.0.0",
+  "scripts": {
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.3.1"
+  }
+}
